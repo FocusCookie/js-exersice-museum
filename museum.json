@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Jüdische Museum",
+    "adresse": {
+      "street": "Alexanderplatz 1",
+      "zip": 10405,
+      "city": "Berlin"
+    },
+    "entryFee": 12,
+    "type": "history"
+  },
+  {
+    "title": "Modern ARt Museum",
+    "adresse": {
+      "street": "Van Gogh 1",
+      "zip": 1234,
+      "city": "New York"
+    },
+    "entryFee": 9999,
+    "type": "art"
+  }
+]

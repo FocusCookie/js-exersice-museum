@@ -1,0 +1,54 @@
+:root {
+  --border-adress: 2px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mu-wrapper {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 32px 0px rgba(0, 0, 0, 0.36);
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 300px;
+}
+.mu-titlebar {
+  background: firebrick;
+  color: white;
+  padding: 10px;
+}
+
+.adress {
+  border-top: var(--border-adress);
+  border-bottom: var(--border-adress);
+  padding: 10px;
+}
+
+.details {
+  padding: 10px;
+}
+
+.details-item {
+  color: white;
+  border-radius: 10px;
+  background: hotpink;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
